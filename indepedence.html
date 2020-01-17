@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .independence {
+            background-color: black;
+            color: white;
+            margin: 50px;
+            padding: 20px;
+        }
+        </style>
+        <script>
+        function myFunction() {
+            document.getElementById("Pepega").innerHTML = "Yes."
+        }
+        </script>
+        <title>Is It Independence Day?</title>
+    </head>
+    <body class = "independence">
+        <h1 id = "Pepega">No.</h1>
+        <button type="button" onclick="myFunction()">Try it</button>
+
+        <script>
+        var d = new Date()
+        if (d.getMonth() === 6 && d.getDate() === 4)
+        {
+            document.getElementById("Pepega").innerHTML = "Yes.";
+        }
+        </script>
+
+    </body>
+</html>
